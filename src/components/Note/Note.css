@@ -1,0 +1,25 @@
+.Note {
+  background-color: #fff;
+  padding: 20px;
+  color: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 5px 10px #888888;
+  margin-top: 2rem;
+}
+
+.Note:hover {
+  background: #f1f2f6;
+  cursor: pointer;
+}
+
+.btn-close {
+  cursor: pointer;
+  font-size: 2rem;
+}
+
+.btn-close:hover {
+  font-size: 2.1rem;
+  color: red;
+}

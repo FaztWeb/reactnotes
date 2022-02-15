@@ -1,0 +1,39 @@
+.NoteForm {
+  width: 27rem;
+  background: #505050;
+  padding: 2rem;
+  margin: 1rem 0;
+}
+
+
+.NoteForm input[type="text"] {
+  display: block;
+  margin: auto;
+  border: none;
+  padding: 1rem 1.5rem;
+  width: 100%;
+}
+
+.NoteForm input[type="text"]:focus {
+  outline: none;
+}
+
+.NoteForm button {
+  padding: 1rem 1.5rem;
+  color: #fff;
+  background: #019875;
+  border: none;
+  display: block;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.NoteForm button:focus {
+  outline: none;
+}
+
+.NoteForm button:hover {
+  background-color: #02ba30;
+  color: #fff;
+  cursor: pointer;
+}
